@@ -1,0 +1,6 @@
+Konwersji liczb.
+Wczytanie zmiennej z użyciem prompt wykonywane jest jako ciąg znaków dlatego konieczna jest 
+konwersji z ciągu znaków na wartości liczbowe aby wykonywac obliczenia.
+parseFloat(zmienna) - konwersja zmiennej do typu float
+parseInt(zmienna) - konwersja zmiennej do typu int (liczbowego)
+toString(zmienna) - konwersja zmiennej do typu łańcuchowego

@@ -1,0 +1,27 @@
+<html>
+<head>\
+<title>z78</title>
+<script type="text/javascript">
+
+var liczba1=prompt("R=","");
+var R=parseFloat(liczba1);
+var licznik_fra=0;
+for ( var x=Math.round(R)-1; x<=Math.round(R)+1; x++)
+{
+    for (var y=-R; y<=R; y++)
+    {
+        d=Math.sqrt(x*x+y*y);
+        //document.write("d="+d+"<br>");
+        document.write("("+x+";"+y+")");
+        if(d<=R){licznik_fra++}
+    }
+    document.write("<br>");
+}
+document.write("licznik="+licznik_fra+"<br>");
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
